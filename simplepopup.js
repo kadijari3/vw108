@@ -1,6 +1,9 @@
-<script>
   const popup = document.getElementById('popup');
-  popup.addEventListener('click', () => {
+
+  // Handle both mouse click and touch events
+  const closePopup = () => {
     popup.style.display = 'none';
-  });
-</script>
+  };
+
+  popup.addEventListener('click', closePopup);
+  popup.addEventListener('touchstart', closePopup);

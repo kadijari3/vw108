@@ -1,7 +1,14 @@
-  const popup = document.getElementById('popup');
+function showPopup() {
+const popup = document.getElementById("popup");
+const overlay = document.getElementById("overlay");
 
-  document.addEventListener('keydown', function(event) {
-    if (event.key === "Escape") {
-      popup.style.display = 'none';
-    }
-  });
+popup.style.display = "block";
+overlay.style.display = "block";
+
+setTimeout(() => {
+popup.style.display = "none";
+overlay.style.display = "none";
+}, 3000);
+}
+// Show the popup every 5 seconds
+setInterval(showPopup, 5000);

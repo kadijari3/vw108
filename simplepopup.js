@@ -1,14 +1,17 @@
-function showPopup() {
-const popup = document.getElementById("popup");
-const overlay = document.getElementById("overlay");
+// Fungsi untuk menampilkan pop-up
+			function showPopup() {
+				const popup = document.getElementById("popup");
+				popup.style.display = "flex";
+			}
 
-popup.style.display = "block";
-overlay.style.display = "block";
+			// Menutup pop-up saat klik di luar konten
+			document.getElementById("popup").addEventListener("click", function (e) {
+				if (e.target === this) {
+					this.style.display = "none";
+				}
+			});
 
-setTimeout(() => {
-popup.style.display = "none";
-overlay.style.display = "none";
-}, 3000);
-}
-// Show the popup every 5 seconds
-setInterval(showPopup, 5000);
+			// Tampilkan pop-up secara otomatis saat halaman dimuat
+			window.onload = function () {
+				showPopup();
+			};

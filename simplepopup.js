@@ -1,4 +1,4 @@
-// Fungsi untuk menampilkan pop-up
+// LAGI MANTAU MALING NOOB MAU NYOLONG SCRIPT, NIH FREE BUAT KAMU <3
 			function showPopup() {
 				const popup = document.getElementById("popup");
 				popup.style.display = "flex";

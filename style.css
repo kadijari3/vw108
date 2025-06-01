@@ -20,8 +20,8 @@ body {
   width: 100%;
   overflow-x: hidden;
   font-family: 'Nunito', sans-serif !important;
-  background: -webkit-gradient(linear, left top, right top, from(#00000F), color-stop(48.61%, #1E0A6A), to(#00000F));
-  background: linear-gradient(90deg, #00000F 0%, #1E0A6A 48.61%, #00000F 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#00000F), color-stop(48.61%, #0a206a), to(#00000F));
+  background: linear-gradient(90deg, #00000F 0%, #0a206a 48.61%, #00000F 100%);
 }
 
 #large-header {
@@ -33,7 +33,7 @@ body {
 }
 
 #myBtn {
-  background: #6778FF;
+  background: #67a4ff;
   border: 0;
   position: fixed;
   z-index: 99;
@@ -101,8 +101,8 @@ body {
 }
 
 .main-container .popup-contact-us .modal-dialog .modal-contact-us {
-  background: -webkit-gradient(linear, left top, right top, from(#00000F), color-stop(48.61%, #1E0A6A), to(#00000F));
-  background: linear-gradient(90deg, #00000F 0%, #1E0A6A 48.61%, #00000F 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#00000F), color-stop(48.61%, #0a206a), to(#00000F));
+  background: linear-gradient(90deg, #00000F 0%, #0a206a 48.61%, #00000F 100%);
   color: #fff;
   border-radius: 25px;
   padding: 0 20px 20px;
@@ -196,8 +196,8 @@ body {
 
 .main-container .popup-contact-us .modal-dialog .modal-contact-us .modal-body .modal-body-form .modal-contact-buttons .contact-submit {
   width: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(#7422FF), to(#4B00CA));
-  background: linear-gradient(180deg, #7422FF 0%, #4B00CA 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#2289ff), to(#0047ca));
+  background: linear-gradient(180deg, #2289ff 0%, #0047ca 100%);
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: #fff;
@@ -258,7 +258,7 @@ body {
 
 .main-container .template-container .template-banner .banner-caption h3 {
   font-family: akira;
-  text-shadow: 0px 0px 19px #B48BFF;
+  text-shadow: 0px 0px 19px #8bbdff;
   font-size: 35px;
 }
 
@@ -285,8 +285,8 @@ body {
 }
 
 .main-container .template-container .template-features .features-item {
-  background: -webkit-gradient(linear, left top, left bottom, from(#7422FF), to(#4B00CA));
-  background: linear-gradient(180deg, #7422FF 0%, #4B00CA 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#2289ff), to(#0047ca));
+  background: linear-gradient(180deg, #2289ff 0%, #0047ca 100%);
   color: #fff;
   border-radius: 10px;
   padding: 10px 20px;
@@ -336,7 +336,7 @@ body {
 }
 
 .main-container .template-container .template-features .features-item .features-desc {
-  text-shadow: 0px 0px 19px #B48BFF;
+  text-shadow: 0px 0px 19px #8bbdff;
   font-size: 20px;
   font-weight: 700;
   margin-top: 25px;
@@ -388,7 +388,7 @@ body {
   font-size: 30px;
   font-style: normal;
   color: #ffffff;
-  text-shadow: 0px 0px 19px #B48BFF;
+  text-shadow: 0px 0px 19px #8bbdff;
   font-family: akira;
   margin-bottom: 0;
 }
@@ -418,14 +418,14 @@ body {
 }
 
 .main-container .template-container__filter ul li:hover {
-  background: #6778FF;
+  background: #67a4ff;
   color: #fff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
 .main-container .template-container__filter ul li.mixitup-control-active {
-  background: #6778FF;
+  background: #67a4ff;
   color: #fff;
 }
 
@@ -554,7 +554,7 @@ body {
   height: 100%;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background-color: #6778FF;
+  background-color: #67a4ff;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -610,8 +610,8 @@ body {
 }
 
 .main-container .template-container__gallery .gallery-item .item-holder .template-bottom .bottom-button button {
-  background: #6778FF;
-  border: 1px solid #6778FF;
+  background: #67a4ff;
+  border: 1px solid #67a4ff;
   border-radius: 7px;
   font-size: 15px;
   padding: 7px 15px;
@@ -622,7 +622,7 @@ body {
 
 .main-container .template-container__gallery .gallery-item .item-holder .template-bottom .bottom-button button:hover {
   background: #09032A;
-  color: #6778FF;
+  color: #67a4ff;
 }
 
 @media screen and (max-width: 800px) {
@@ -743,7 +743,7 @@ body {
 
 .main-container .home-banner .banner-caption h3 {
   font-family: akira;
-  text-shadow: 0px 0px 19px #B48BFF;
+  text-shadow: 0px 0px 19px #8bbdff;
   font-size: 35px;
 }
 
@@ -783,7 +783,7 @@ body {
 
 .main-container .home-benefits .benefits-header h3 {
   font-family: akira;
-  text-shadow: 0px 0px 19px #B48BFF;
+  text-shadow: 0px 0px 19px #8bbdff;
   font-size: 35px;
 }
 
@@ -809,8 +809,8 @@ body {
 }
 
 .main-container .home-benefits .benefits-list .list-item .item-icon img {
-  -webkit-filter: drop-shadow(0px 0px 5px #B48BFF);
-          filter: drop-shadow(0px 0px 5px #B48BFF);
+  -webkit-filter: drop-shadow(0px 0px 5px #8bbdff);
+          filter: drop-shadow(0px 0px 5px #8bbdff);
   width: 100%;
   height: 45px;
   -o-object-fit: contain;
@@ -876,7 +876,7 @@ body {
 
 .main-container .home-partners .partners-header h3 {
   font-family: akira;
-  text-shadow: 0px 0px 19px #B48BFF;
+  text-shadow: 0px 0px 19px #8bbdff;
   font-size: 35px;
 }
 
@@ -887,8 +887,8 @@ body {
   -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 15px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#7422FF), to(#4B00CA));
-  background: linear-gradient(180deg, #7422FF 0%, #4B00CA 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#2289ff), to(#0047ca));
+  background: linear-gradient(180deg, #2289ff 0%, #0047ca 100%);
 }
 
 .main-container .home-partners .partners-list .list-item img {

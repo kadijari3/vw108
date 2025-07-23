@@ -20,8 +20,8 @@ body {
   width: 100%;
   overflow-x: hidden;
   font-family: 'Nunito', sans-serif !important;
-  background: -webkit-gradient(linear, left top, right top, from(#00000F), color-stop(48.61%, #044186), to(#00000F));
-  background: linear-gradient(90deg, #00000F 0%, #6a4c0a 48.61%, #00000F 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#00000F), color-stop(48.61%, #023e97), to(#00000F));
+  background: linear-gradient(90deg, #00000F 0%, #023e97 48.61%, #00000F 100%);
 }
 
 #large-header {
@@ -101,8 +101,8 @@ body {
 }
 
 .main-container .popup-contact-us .modal-dialog .modal-contact-us {
-  background: -webkit-gradient(linear, left top, right top, from(#00000F), color-stop(48.61%, #6a4c0a), to(#00000F));
-  background: linear-gradient(90deg, #00000F 0%, #6a4c0a 48.61%, #00000F 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#00000F), color-stop(48.61%, #023e97), to(#00000F));
+  background: linear-gradient(90deg, #00000F 0%, #023e97 48.61%, #00000F 100%);
   color: #fff;
   border-radius: 25px;
   padding: 0 20px 20px;
